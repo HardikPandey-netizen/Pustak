@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const Book = require("./bookModel");
-const User = requi
+const User = require("./userModel");
 const reviewSchema = new mongoose.Schema({
     rating: {
         type: Number,
