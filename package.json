@@ -1,0 +1,18 @@
+{
+  "name": "pustak",
+  "version": "1.0.0",
+  "description": "It is a website for acessing pdf or buying or booking books",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Hardik Pandey",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.0",
+    "morgan": "^1.10.0",
+    "validator": "^13.12.0"
+  }
+}
