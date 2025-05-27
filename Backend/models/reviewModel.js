@@ -13,7 +13,6 @@ const reviewSchema = new mongoose.Schema({
     book: {
         type: mongoose.Schema.ObjectId,
         ref: 'Book',
-        required: [true,'A review must belong to a book']
     },
     user: [
         {
@@ -22,6 +21,10 @@ const reviewSchema = new mongoose.Schema({
             required: [true,'A review must belong to a user']
         }
     ],
+    library: {
+        type: mongoose.Schema.ObjectId,
+        ref: 'Library',
+    },
     createdAt: {
         type: Date,
         default: Date.now

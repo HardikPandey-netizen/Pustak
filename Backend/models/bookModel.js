@@ -36,6 +36,12 @@ const bookSchema = new mongoose.Schema({
     type: Boolean,
     default: false,
   },
+  availibility: [
+    {
+      type: mongoose.Schema.ObjectId,
+      ref: 'Library',
+    }
+  ]
 });
 
 const Book = mongoose.model("Book", bookSchema);
