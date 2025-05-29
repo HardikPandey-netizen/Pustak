@@ -21,6 +21,9 @@ const handleDuplicateFieldsDB = err => {
   return new AppError(message, 400);
 }
 
+const handleJWTError = err => new AppError('Invalid Token! Please log in again',401);
+const handleJWTExpiry = err => new AppError('Your login has expired! Kindly login again');
+
 const sendErrorDev = (err,res)=> {
     res.status(err.statusCode).json({
       status: err.status,
@@ -60,6 +63,8 @@ const sendErrorDev = (err,res)=> {
         let error = {...err}
         if(error.name == 'CastError') error = handleCastErrorDB(err);
         if(error.code === 11000) error = handleDuplicateFieldsDB(error);
+        if(error.name == 'JsonWebTokenError') error = handleJWTError(error);
+        if(error.name == 'TokenExpiredError') error = handleJWTExpiry(error);
         sendErrorProd(error,res);
       }
       
