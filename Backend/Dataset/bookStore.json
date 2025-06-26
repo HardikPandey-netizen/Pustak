@@ -1,0 +1,212 @@
+[
+  {
+    "name": "The Book Haven",
+    "owner": "60f7b3a4c8e3b21f7c8e3c01",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.2100, 28.6100]
+    },
+    "books": [
+      "Norwegian Wood",
+      "The Hobbit",
+      "India After Gandhi",
+      "Kafka on the Shore",
+      "The Ramayana",
+      "Sapiens",
+      "The Catcher in the Rye",
+      "Life of Pi",
+      "The General Theory",
+      "The Tale of Genji"
+    ],
+    "mode": "bookstore"
+  },
+  {
+    "name": "Chapter & Verse",
+    "owner": "60f7b3a4c8e3b21f7c8e3c02",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.2255, 28.6134]
+    },
+    "books": [
+      "1984",
+      "The God of Small Things",
+      "Malgudi Days",
+      "The Very Hungry Caterpillar",
+      "Fahrenheit 451",
+      "The Kite Runner",
+      "The General Theory",
+      "Jane Eyre",
+      "Indian Modernism",
+      "The Quran"
+    ],
+    "mode": "bookstore"
+  },
+  {
+    "name": "Read & Rejoice",
+    "owner": "60f7b3a4c8e3b21f7c8e3c03",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.2310, 28.6430]
+    },
+    "books": [
+      "Wings of Fire",
+      "Snow Country",
+      "Das Kapital",
+      "Open",
+      "Charlotte's Web",
+      "Tamas",
+      "Pax Indica",
+      "The Immortals of Meluha",
+      "Holes",
+      "Animal Farm"
+    ],
+    "mode": "bookstore"
+  },
+  {
+    "name": "Ink & Leaf",
+    "owner": "60f7b3a4c8e3b21f7c8e3c04",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.1880, 28.6500]
+    },
+    "books": [
+      "Bridge to Terabithia",
+      "Gandhi: An Autobiography",
+      "Godan",
+      "A Brief History of Time",
+      "Raja Yoga",
+      "The Painted Word",
+      "The BFG",
+      "Cosmos",
+      "The Indian Penal Code",
+      "Chandrakanta"
+    ],
+    "mode": "bookstore"
+  },
+  {
+    "name": "BiblioCorner",
+    "owner": "60f7b3a4c8e3b21f7c8e3c05",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.2200, 28.6000]
+    },
+    "books": [
+      "The Sailor Who Fell from Grace",
+      "The Argumentative Indian",
+      "Premchand's Short Stories",
+      "The Discovery of India",
+      "The Book Thief",
+      "The Shadow Lines",
+      "Gandhi on Non-Violence",
+      "The Wind-Up Bird Chronicle",
+      "Pride and Prejudice",
+      "Wuthering Heights"
+    ],
+    "mode": "bookstore"
+  },
+  {
+    "name": "PageTurner Books",
+    "owner": "60f7b3a4c8e3b21f7c8e3c06",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.1900, 28.6200]
+    },
+    "books": [
+      "The Law of Torts",
+      "Becoming",
+      "Train to Pakistan",
+      "Capital in the Twenty-First Century",
+      "Karma Yoga",
+      "The Bell Jar",
+      "Urdu Ghazals",
+      "The White Tiger",
+      "The Girl with the Dragon Tattoo",
+      "Madhushala"
+    ],
+    "mode": "bookstore"
+  },
+  {
+    "name": "Leaf & Lantern",
+    "owner": "60f7b3a4c8e3b21f7c8e3c07",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.1655, 28.6405]
+    },
+    "books": [
+      "Green Eggs and Ham",
+      "The Inheritance of Loss",
+      "Matilda",
+      "Development as Freedom",
+      "Indian Painting",
+      "Beloved",
+      "Rashmirathi",
+      "Why Nations Fail",
+      "Freedom at Midnight",
+      "Charlotte's Web"
+    ],
+    "mode": "bookstore"
+  },
+  {
+    "name": "The Reading Nook",
+    "owner": "60f7b3a4c8e3b21f7c8e3c08",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.2450, 28.6100]
+    },
+    "books": [
+      "The Gene",
+      "The Giver",
+      "My Experiments with Truth",
+      "The Complete Works of Swami Vivekananda",
+      "Indian Architecture",
+      "Slaughterhouse-Five",
+      "The Universe in a Nutshell",
+      "The Road",
+      "Malgudi Days",
+      "The General Theory"
+    ],
+    "mode": "bookstore"
+  },
+  {
+    "name": "Book Basket",
+    "owner": "60f7b3a4c8e3b21f7c8e3c09",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.2022, 28.6644]
+    },
+    "books": [
+      "Introduction to the Constitution of India",
+      "India's Struggle for Independence",
+      "The Alchemist",
+      "The Painted Word",
+      "Nirmala",
+      "The Fault in Our Stars",
+      "Labour Laws",
+      "The Guide",
+      "Snow Country",
+      "Botchan"
+    ],
+    "mode": "bookstore"
+  },
+  {
+    "name": "LitSpace",
+    "owner": "60f7b3a4c8e3b21f7c8e3c10",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.2144, 28.6399]
+    },
+    "books": [
+      "Rashomon",
+      "Maila Anchal",
+      "To Kill a Mockingbird",
+      "Indian Epigraphy",
+      "Constitutional Law of India",
+      "The Wealth of Nations",
+      "Indian Modernism",
+      "The Discovery of India",
+      "Godan",
+      "The General Theory"
+    ],
+    "mode": "bookstore"
+  }
+]

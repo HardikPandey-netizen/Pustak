@@ -6,10 +6,11 @@ const AppError = require('./utils/appError');
 const globalErrorHandler = require('./controllers/errorController');
 const userRouter = require('./routes/userRoutes');
 const libraryRouter = require('./routes/libraryRoutes');
+const cors = require('cors');
 
 app.use(morgan('dev'));
 app.use(express.json());
-
+app.use(cors());
 
 app.use('/api/v1/books',bookRouter);
 app.use('/api/v1/users',userRouter);

@@ -5,9 +5,16 @@ const bookSchema = new mongoose.Schema({
     required: [true, "A book must have a name"],
     unique: true,
   },
-  genre: {
-    type: String,
-  },
+  author: [
+    {
+      type: String
+    }
+  ],
+  genre: [
+    {
+      type: String
+    }
+  ],
   published_year: {
     type: Number,
   },
@@ -24,7 +31,7 @@ const bookSchema = new mongoose.Schema({
     type: Number,
     default: 0,
   },
-  descripton: {
+  description: {
     type: String,
     trim: true,
   },
@@ -36,12 +43,20 @@ const bookSchema = new mongoose.Schema({
     type: Boolean,
     default: false,
   },
+  audioBookAvailable: {
+    type: Boolean,
+    default: false,
+  },
   availibility: [
     {
       type: mongoose.Schema.ObjectId,
       ref: 'Library',
     }
-  ]
+  ],
+  retailPrice: Number,
+  listPrice: Number,
+  buyLink: String,
+  pdfReader: String
 });
 
 const Book = mongoose.model("Book", bookSchema);

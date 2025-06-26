@@ -13,10 +13,10 @@ const signToken = (id) => {
 };
 
 exports.signup = catchAsync(async (req, res, next) => {
-  const { name, email, role, password, passwordConfirm } = req.body;
+  const { username, email, role, password, passwordConfirm } = req.body;
 
   const newUser = await User.create({
-    name,
+    username,
     email,
     role,
     password,
@@ -35,22 +35,40 @@ exports.signup = catchAsync(async (req, res, next) => {
 });
 
 exports.login = catchAsync(async (req, res, next) => {
-  const { email, password } = req.body;
+  const { email, password, username } = req.body;
+  
+  if(!username){
+    return next(new AppError("Please provide username", 400));
+  }
   if (!email || !password) {
     return next(new AppError("Please provide email or password!", 400));
   }
+
   const user = await User.findOne({ email }).select("+password");
 
-  const correct = await user.correctPassword(password, user.password);
-  if (!user || !correct) {
-    return next(new AppError("incorrect email or password", 401));
+  // Check if user exists
+  if (!user) {
+    return next(new AppError("Incorrect email or password", 401));
   }
+
+  // Check if password is correct
+  const correct = await user.correctPassword(password, user.password);
+
+  if (!correct) {
+    return next(new AppError("Incorrect email or password", 401));
+  }
+
   const token = signToken(user._id);
+
   res.status(200).json({
-    status: "sucess",
-    token,
+    status: "success",
+    data: {
+      user
+    },
+    token
   });
 });
+
 
 exports.protect = catchAsync(async (req, res, next) => {
   let token = "";
@@ -110,19 +128,25 @@ exports.forgotPassword = catchAsync(async (req, res, next) => {
   const resetToken = user.createPasswordResetToken();
   await user.save({ validateBeforeSave: false });
 
-  const resetURL = `${req.protocol}://${req.get("host")}/api/v1/users/resetPassword/${resetToken}`;
-  const message = `Forgot your password? Submit a PATCH request with your new password and passwordConfirm to: ${resetURL}.\nIf you didn’t request a password reset, please ignore this email.`;
+  // React frontend URL (adjust port as needed or use env variable)
+  const reactAppUrl = process.env.REACT_APP_URL || "http://localhost:5173";
+  const resetURL = `${reactAppUrl}/resetPassword/${resetToken}`;
+
+  // Old backend API reset link (commented out)
+  // const resetURL = `${req.protocol}://${req.get("host")}/api/v1/users/resetPassword/${resetToken}`;
+
+  const message = `Forgot your password? Click the link below to reset your password:\n\n${resetURL}\n\nIf you didn’t request a password reset, please ignore this email.`;
 
   try {
     await sendEmail({
       email: user.email,
       subject: "Your password reset token (valid for 10 mins)",
-      message
+      message,
     });
 
     res.status(200).json({
       status: "success",
-      message: "Reset link sent to email if it exists in our records."
+      message: "Reset link sent to email if it exists in our records.",
     });
   } catch (err) {
     user.passwordResetToken = undefined;
@@ -134,6 +158,7 @@ exports.forgotPassword = catchAsync(async (req, res, next) => {
     );
   }
 });
+
 
 
 exports.resetPassword = catchAsync(async (req, res, next) => {

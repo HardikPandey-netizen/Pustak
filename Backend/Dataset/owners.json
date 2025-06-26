@@ -1,0 +1,82 @@
+[
+  {
+    "_id": "507f1f77bcf86cd799439070",
+    "username": "AmitSharma",
+    "email": "amit.sharma@example.com",
+    "password": "securepass123",
+    "passwordConfirm": "securepass123",
+    "role": "owner"
+  },
+  {
+    "_id": "507f1f77bcf86cd799439071",
+    "username": "PriyaVerma",
+    "email": "priya.verma@example.com",
+    "password": "booklover456",
+    "passwordConfirm": "booklover456",
+    "role": "owner"
+  },
+  {
+    "_id": "507f1f77bcf86cd799439072",
+    "username": "RahulMehta",
+    "email": "rahul.mehta@example.com",
+    "password": "literary789",
+    "passwordConfirm": "literary789",
+    "role": "owner"
+  },
+  {
+    "_id": "507f1f77bcf86cd799439073",
+    "username": "SnehaGupta",
+    "email": "sneha.gupta@example.com",
+    "password": "reading101",
+    "passwordConfirm": "reading101",
+    "role": "owner"
+  },
+  {
+    "_id": "507f1f77bcf86cd799439074",
+    "username": "VikramSingh",
+    "email": "vikram.singh@example.com",
+    "password": "bookhaven202",
+    "passwordConfirm": "bookhaven202",
+    "role": "owner"
+  },
+  {
+    "_id": "507f1f77bcf86cd799439075",
+    "username": "AnjaliPatel",
+    "email": "anjali.patel@example.com",
+    "password": "reader303",
+    "passwordConfirm": "reader303",
+    "role": "owner"
+  },
+  {
+    "_id": "507f1f77bcf86cd799439076",
+    "username": "KaranYadav",
+    "email": "karan.yadav@example.com",
+    "password": "bookdepot404",
+    "passwordConfirm": "bookdepot404",
+    "role": "owner"
+  },
+  {
+    "_id": "507f1f77bcf86cd799439077",
+    "username": "MeeraNair",
+    "email": "meera.nair@example.com",
+    "password": "emporium505",
+    "passwordConfirm": "emporium505",
+    "role": "owner"
+  },
+  {
+    "_id": "507f1f77bcf86cd799439078",
+    "username": "ArjunKapoor",
+    "email": "arjun.kapoor@example.com",
+    "password": "bookstop606",
+    "passwordConfirm": "bookstop606",
+    "role": "owner"
+  },
+  {
+    "_id": "507f1f77bcf86cd799439079",
+    "username": "RiyaMalhotra",
+    "email": "riya.malhotra@example.com",
+    "password": "corner707",
+    "passwordConfirm": "corner707",
+    "role": "owner"
+  }
+]

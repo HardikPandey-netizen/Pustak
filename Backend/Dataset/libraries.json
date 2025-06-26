@@ -1,0 +1,402 @@
+[
+  {
+    "name": "Delhi Public Library - Central",
+    "owner": "60f7b3a4c8e3b21f7c8e3b01",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.2245, 28.6328]
+    },
+    "books": [
+      "The Alchemist",
+      "Animal Farm",
+      "The Kite Runner",
+      "Sapiens",
+      "The God of Small Things",
+      "Midnight's Children",
+      "A Suitable Boy",
+      "The White Tiger",
+      "The Namesake",
+      "Train to Pakistan"
+    ]
+  },
+  {
+    "name": "Sahitya Akademi Library",
+    "owner": "60f7b3a4c8e3b21f7c8e3b02",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.2337, 28.6215]
+    },
+    "books": [
+      "Godan",
+      "Gitanjali",
+      "The Guide",
+      "Tamas",
+      "Malgudi Days",
+      "The Palace of Illusions",
+      "The Inheritance of Loss",
+      "The Immortals of Meluha",
+      "The Shadow Lines",
+      "A Fine Balance"
+    ]
+  },
+  {
+    "name": "British Council Library",
+    "owner": "60f7b3a4c8e3b21f7c8e3b03",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.2180, 28.6267]
+    },
+    "books": [
+      "Pride and Prejudice",
+      "1984",
+      "To Kill a Mockingbird",
+      "The Great Gatsby",
+      "Wuthering Heights",
+      "Jane Eyre",
+      "The Catcher in the Rye",
+      "Lord of the Flies",
+      "Brave New World",
+      "Animal Farm"
+    ]
+  },
+  {
+    "name": "American Library",
+    "owner": "60f7b3a4c8e3b21f7c8e3b04",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.2185, 28.6270]
+    },
+    "books": [
+      "The Great Gatsby",
+      "Moby-Dick",
+      "The Scarlet Letter",
+      "Huckleberry Finn",
+      "Catch-22",
+      "The Grapes of Wrath",
+      "Fahrenheit 451",
+      "Slaughterhouse-Five",
+      "The Bell Jar",
+      "Beloved"
+    ]
+  },
+  {
+    "name": "Nehru Memorial Library",
+    "owner": "60f7b3a4c8e3b21f7c8e3b05",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.1998, 28.5914]
+    },
+    "books": [
+      "Discovery of India",
+      "My Experiments with Truth",
+      "India After Gandhi",
+      "The Argumentative Indian",
+      "An Era of Darkness",
+      "Freedom at Midnight",
+      "The Wonder That Was India",
+      "India Unbound",
+      "The Discovery of India",
+      "Gandhi Before India"
+    ]
+  },
+  {
+    "name": "Japan Foundation Library",
+    "owner": "60f7b3a4c8e3b21f7c8e3b06",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.2423, 28.5537]
+    },
+    "books": [
+      "Norwegian Wood",
+      "Kafka on the Shore",
+      "The Wind-Up Bird Chronicle",
+      "1Q84",
+      "Snow Country",
+      "The Tale of Genji",
+      "Rashomon",
+      "The Sailor Who Fell from Grace",
+      "Kokoro",
+      "Botchan"
+    ]
+  },
+  {
+    "name": "Archaeological Survey of India Library",
+    "owner": "60f7b3a4c8e3b21f7c8e3b07",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.2310, 28.6119]
+    },
+    "books": [
+      "Ancient India",
+      "The Art and Architecture of India",
+      "Indian Epigraphy",
+      "The Wonder That Was India",
+      "Asoka and His Inscriptions",
+      "Indian Architecture",
+      "Numismatics of Ancient India",
+      "The Indus Civilization",
+      "History of Indian Art",
+      "Archaeology in India"
+    ]
+  },
+  {
+    "name": "National Gallery of Modern Art Library",
+    "owner": "60f7b3a4c8e3b21f7c8e3b08",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.2345, 28.6090]
+    },
+    "books": [
+      "Modern Indian Art",
+      "Art in Theory",
+      "The Story of Art",
+      "Ways of Seeing",
+      "Indian Painting",
+      "Art and Nationalism",
+      "Contemporary Art in India",
+      "The Painted Word",
+      "Art History",
+      "Indian Modernism"
+    ]
+  },
+  {
+    "name": "Hardayal Municipal Public Library",
+    "owner": "60f7b3a4c8e3b21f7c8e3b09",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.2167, 28.6562]
+    },
+    "books": [
+      "The Ramayana",
+      "Mahabharata",
+      "The Quran",
+      "The Bible",
+      "Gitanjali",
+      "Premchand's Short Stories",
+      "The Mughal Empire",
+      "Persian Poetry",
+      "Urdu Ghazals",
+      "Sanskrit Classics"
+    ]
+  },
+  {
+    "name": "Marwari Library",
+    "owner": "60f7b3a4c8e3b21f7c8e3b10",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.2160, 28.6550]
+    },
+    "books": [
+      "Godan",
+      "Tamas",
+      "Chandrakanta",
+      "Maila Anchal",
+      "Nirmala",
+      "Sevasadan",
+      "Kamayani",
+      "Rashmirathi",
+      "Madhushala",
+      "Parshuram ke Kahaniyan"
+    ]
+  },
+  {
+    "name": "Delhi Public Library - Sarojini Nagar",
+    "owner": "60f7b3a4c8e3b21f7c8e3b11",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.1950, 28.5740]
+    },
+    "books": [
+      "The Alchemist",
+      "The Da Vinci Code",
+      "Life of Pi",
+      "The Book Thief",
+      "The Hobbit",
+      "Harry Potter and the Philosopher's Stone",
+      "The Hunger Games",
+      "The Fault in Our Stars",
+      "The Girl with the Dragon Tattoo",
+      "The Road"
+    ]
+  },
+  {
+    "name": "Delhi Public Library - Karol Bagh",
+    "owner": "60f7b3a4c8e3b21f7c8e3b12",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.1890, 28.6490]
+    },
+    "books": [
+      "A Brief History of Time",
+      "Sapiens",
+      "The Selfish Gene",
+      "Cosmos",
+      "The Origin of Species",
+      "The Elegant Universe",
+      "The Immortal Life of Henrietta Lacks",
+      "The Gene",
+      "The Double Helix",
+      "The Universe in a Nutshell"
+    ]
+  },
+  {
+    "name": "Delhi Public Library - Patel Nagar",
+    "owner": "60f7b3a4c8e3b21f7c8e3b13",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.1650, 28.6510]
+    },
+    "books": [
+      "The Diary of a Young Girl",
+      "Long Walk to Freedom",
+      "I Am Malala",
+      "Becoming",
+      "The Autobiography of Malcolm X",
+      "Steve Jobs",
+      "Einstein: His Life and Universe",
+      "Wings of Fire",
+      "The Story of My Life",
+      "Open"
+    ]
+  },
+  {
+    "name": "Delhi Public Library - Shahdara",
+    "owner": "60f7b3a4c8e3b21f7c8e3b14",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.2900, 28.6730]
+    },
+    "books": [
+      "The Outsiders",
+      "The Perks of Being a Wallflower",
+      "Looking for Alaska",
+      "The Giver",
+      "Holes",
+      "Bridge to Terabithia",
+      "The Lion, the Witch and the Wardrobe",
+      "Charlotte's Web",
+      "Matilda",
+      "The BFG"
+    ]
+  },
+  {
+    "name": "National Bal Bhawan Library",
+    "owner": "60f7b3a4c8e3b21f7c8e3b15",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.2290, 28.6180]
+    },
+    "books": [
+      "The Cat in the Hat",
+      "Green Eggs and Ham",
+      "Where the Wild Things Are",
+      "The Very Hungry Caterpillar",
+      "Charlie and the Chocolate Factory",
+      "James and the Giant Peach",
+      "The Gruffalo",
+      "Winnie-the-Pooh",
+      "The Tale of Peter Rabbit",
+      "The Wind in the Willows"
+    ]
+  },
+  {
+    "name": "Lok Sevak Lajpat Bhawan Library",
+    "owner": "60f7b3a4c8e3b21f7c8e3b16",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.2420, 28.5535]
+    },
+    "books": [
+      "My Experiments with Truth",
+      "The Story of My Experiments with Truth",
+      "Gandhi: An Autobiography",
+      "Satyagraha in South Africa",
+      "Hind Swaraj",
+      "The Essential Gandhi",
+      "Gandhi's Life in His Own Words",
+      "The Gandhi Reader",
+      "Gandhi on Non-Violence",
+      "An Autobiography"
+    ]
+  },
+  {
+    "name": "India International Centre Library",
+    "owner": "60f7b3a4c8e3b21f7c8e3b17",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.2370, 28.5920]
+    },
+    "books": [
+      "The Discovery of India",
+      "India After Gandhi",
+      "The Idea of India",
+      "Pax Indica",
+      "India Unbound",
+      "The Argumentative Indian",
+      "An Era of Darkness",
+      "India's Struggle for Independence",
+      "The Great Indian Novel",
+      "India: A History"
+    ]
+  },
+  {
+    "name": "JNU Library",
+    "owner": "60f7b3a4c8e3b21f7c8e3b18",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.1660, 28.5400]
+    },
+    "books": [
+      "Capital in the Twenty-First Century",
+      "The Wealth of Nations",
+      "Das Kapital",
+      "The General Theory",
+      "Development as Freedom",
+      "The Bottom Billion",
+      "Why Nations Fail",
+      "The End of Poverty",
+      "The World is Flat",
+      "Freakonomics"
+    ]
+  },
+  {
+    "name": "Indian Law Institute Library",
+    "owner": "60f7b3a4c8e3b21f7c8e3b19",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.2240, 28.6200]
+    },
+    "books": [
+      "Introduction to the Constitution of India",
+      "The Indian Penal Code",
+      "Constitutional Law of India",
+      "The Law of Torts",
+      "Contract Law",
+      "Criminal Procedure Code",
+      "Family Law in India",
+      "Environmental Law",
+      "Labour Laws",
+      "Intellectual Property Law"
+    ]
+  },
+  {
+    "name": "Ramakrishna Mission Library",
+    "owner": "60f7b3a4c8e3b21f7c8e3b20",
+    "location": {
+      "type": "Point",
+      "coordinates": [77.2250, 28.6360]
+    },
+    "books": [
+      "The Complete Works of Swami Vivekananda",
+      "Bhagavad Gita",
+      "Upanishads",
+      "Ramakrishna and His Disciples",
+      "The Gospel of Sri Ramakrishna",
+      "Vivekananda: A Biography",
+      "Meditation and Its Methods",
+      "Karma Yoga",
+      "Raja Yoga",
+      "Jnana Yoga"
+    ]
+  }
+]

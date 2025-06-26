@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const Book = require('./bookModel');
+const User = require('./userModel');
 const Review = require('./reviewModel');
 const librarySchema = new mongoose.Schema({
     name: {
@@ -7,13 +8,14 @@ const librarySchema = new mongoose.Schema({
         required: [true, 'A library must have a name'],
     },
     owner: {
-        type: String,
+        type: mongoose.Schema.ObjectId,
         required: [true, 'A library must have a owner'],
     },
+    Image: String,
     books: [
         {
             type: mongoose.Schema.ObjectId,
-            ref: 'Book',
+            ref: 'User',
         }
     ],
     reviews: [
@@ -32,7 +34,7 @@ const librarySchema = new mongoose.Schema({
     },
     mode : {
         type: String,
-        enum: ['user','guide','lead-guide','admin'],
+        enum: ['library','bookstore','second-hand-bookstore'],
     },
     rating: {
       type: Number,
